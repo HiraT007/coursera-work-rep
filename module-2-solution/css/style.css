@@ -1,0 +1,156 @@
+*{
+	font-family: "Comic Sans MS";
+	box-sizing: border-box;
+}
+
+.row{
+	width: 100%;
+	float: left;
+	padding-top: 30px;
+}
+
+h1{
+	text-align: center;
+}
+h4{
+	margin:0px;
+}
+p{
+	margin-top: 0px;
+}
+
+/******* For Desktop Screen *******/
+@media (min-width: 992px) {
+	.item-1, .item-2, .item-3{
+		background-color: #999999;
+		width: 31.3%;
+		float: left;
+		margin-left: 1%;
+		margin-right: 1%;
+		border: 1px solid black;
+		padding: 5px 10px;
+	}
+
+	.item-1 h4{
+		background-color: #d59898;
+		width: 30%;
+		text-align: center;
+		border: 1px solid black;
+		position: relative;
+		left: 290px;
+    	bottom: 5px;
+	}
+
+	.item-2 h4{
+		background-color: #c14543;
+		color: #fff;
+		width: 30%;
+		text-align: center;
+		border: 1px solid black;
+		position: relative;
+		left: 291px;
+	    bottom: 5px;
+	}
+	.item-3 h4{
+		background-color: #e5d198;
+		width: 30%;
+		text-align: center;
+		border: 1px solid black;
+		position: relative;
+		left: 290px;
+	    bottom: 5px;
+	}
+}
+/******* For Tablet Screen *******/
+@media (min-width: 768px) and (max-width: 991px) {
+		.item-1, .item-2, .item-3{
+		background-color: #999999;
+		width: 96%;
+		float: left;
+		margin-left: 2%;
+		margin-right: 2%;
+		margin-bottom: 20px;
+		border: 1px solid black;
+		padding: 5px 10px;
+	}
+
+	.item-1 h4{
+		background-color: #d59898;
+		width:30%;
+		text-align: center;
+		border: 1px solid black;
+		position: relative;
+		bottom: 5px;
+    	left: 639px;
+	}
+
+	.item-2 h4{
+		background-color: #c14543;
+		color: #fff;
+		width: 30%;
+		text-align: center;
+		border: 1px solid black;
+		position: relative;
+		bottom: 5px;
+    	left: 639px;
+	}
+	.item-3 h4{
+		background-color: #e5d198;
+		width: 30%;
+		text-align: center;
+		border: 1px solid black;
+		position: relative;
+		bottom: 5px;
+    	left: 639px;
+	}
+}
+/******* For Mobile Screen *******/
+@media (max-width: 767px) {
+	.item-1, .item-2{
+		background-color: #999999;
+		width: 46%;
+		float: left;
+		margin-left: 2%;
+		margin-right: 2%;
+		border: 1px solid black;
+		padding: 5px 10px;
+	}
+	.item-3{
+		background-color: #999999;
+		width: 96%;
+		float: left;
+		margin: 4% 2%;
+		border: 1px solid black;
+		padding: 5px 10px;
+	}
+
+	.item-1 h4{
+		background-color: #d59898;
+		width: 40%;
+		text-align: center;
+		border: 1px solid black;
+		position: relative;
+		bottom: 5px;
+    	left: 204px;
+	}
+
+	.item-2 h4{
+		background-color: #c14543;
+		color: #fff;
+		width: 40%;
+		text-align: center;
+		border: 1px solid black;
+		position: relative;
+		bottom: 5px;
+    	left: 204px;
+	}
+	.item-3 h4{
+		background-color: #e5d198;
+		width: 20%;
+		text-align: center;
+		border: 1px solid black;
+		position: relative;
+	    bottom: 5px;
+	    left: 568px;
+	}
+}
