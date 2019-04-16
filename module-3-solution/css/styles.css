@@ -1,0 +1,98 @@
+*{
+	font-family: Calibri;
+}
+
+h1{
+	color: #fff;
+}
+
+h2{
+	color: #6c6c79;
+	font-weight: bold;
+}
+
+h3{
+	font-weight: bold;
+}
+
+p{
+	font-size: 18px;
+	line-height: 22px;
+	letter-spacing: 1px;
+}
+/*** header ****/
+#header-nav{
+	background-color: #6fc5ce;
+}
+.navbar-header > div:nth-child(2){
+    float: right;
+    margin-top: 36px;
+    margin-right: 55px;
+}
+.navbar-brand{
+	height: 100px;
+}
+.navbar-toggler{
+	margin-top: 40px;
+    margin-right: 45px;
+    float: right;
+}
+#nav-list > li > a:hover, #nav-list > li > a:focus{
+	color: #000;
+    background-color: #e7e7e7;
+}
+#nav-list > li > a{
+	font-size: 18px;
+	font-weight: bold;
+	color: gray;
+}
+
+/*** main-content ****/
+.my-menu > div {
+	background-color: #b0c4ce;
+	color: #gray;
+}
+.main-content > div > div{
+	padding: 20px 0;
+}
+.my-menu > div{
+	margin-bottom: 5%;
+	padding: 10px 40px 40px;
+}
+
+/******* For Desktop Screen *******/
+@media (min-width: 992px) {
+	#nav-list{
+		float: right;
+		margin-top: 45px;
+		margin-right: 75px;
+	}
+	.navbar-header{
+		margin-left: 75px;
+	}
+
+}
+/******* For Tablet Screen *******/
+@media (min-width: 768px) and (max-width: 991px) {
+	#nav-list{
+		float: right;
+		margin-top: 45px;
+		margin-right: 75px;
+	}
+}
+/******* For Mobile Screen *******/
+@media (max-width: 767px) {
+	#collapsable-nav{
+		background-color: #cbddf7;
+	}
+	.main-content > div{
+		margin: auto 5%;
+	}
+	.nav-item{
+		border-bottom: 1px solid gray;
+	}
+	.nav-item:last-child{
+		border-bottom: 0;
+	}
+
+}
